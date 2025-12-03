@@ -1,0 +1,159 @@
+
+}
+
+body {
+    background-color: #000000;
+}
+
+
+/* header */
+hd {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    background-color: #FFA500;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.logo-text {
+    color: #FFA500;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #FFA500;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.phone {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+ }
+
+fixed
+
+ /*-----------body------------*/
+
+
+ .h1 {
+    border: 2px solid rgb(75 70 74);
+  border-radius: 0.5em;
+  font: 1.2em sans-serif;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .grid {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.car-cat {
+    border: 1px solid #fff2f2;
+    color: #FFA500;
+}
+
+.car-image {
+    width: 100%;
+    height: 250px;
+}
+
+.car-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.information {
+    padding: 15px;
+}
+
+.information h3 {
+    margin: 0 0 10px 0;
+}
+
+.specs, .price, .prix {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.btn-details {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background: none;
+    cursor: pointer;
+    color: #FFA500;
+}
+
