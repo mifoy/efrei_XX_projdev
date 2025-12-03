@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="style.css" rel="stylesheet">
+    <title>AUTOEFREI</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-icon">LX</div>
+            <div class="logo-text">AUTOEFREI</div>
+        </div>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="contact-info">
+            <div class="phone">+33 6 66 99 66 88</div>
+            <div class="icons">
+                <div class="icon">📞</div>
+                <div class="icon">✉</div>
+            </div>
+        </div>
+    </header>
+    <div class="img" >
+    <img src="voiture.jpg">
+    </div>
+</body>
+</html>
