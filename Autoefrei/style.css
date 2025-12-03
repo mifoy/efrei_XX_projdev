@@ -115,7 +115,7 @@ body {
     gap: 20px;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary{
     padding: 12px 24px;
     border-radius: 5px;
     text-decoration: none;
@@ -132,14 +132,5 @@ body {
     background-color: #FF8C00;
 }
 
-.btn-secondary {
-    background-color: transparent;
-    color: white;
-    border: 2px solid #FFA500;
-}
 
-.btn-secondary:hover {
-    background-color: #FFA500;
-    color: white;
-}
 
