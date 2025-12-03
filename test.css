@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    background-color: #FFA500;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.logo-text {
+    color: #FFD700;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #FFD700;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.phone {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 14px;
+ }
+ .card-grid{
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 18px;
+  max-width: 880px;
+  background-color: lightgray;
+}
+.card-grid .row{
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.Z1{
+text-align: center;
+color: orange;
+font-size: 19px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Z2{
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Z3{
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'
+}
+.grandiv{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 50px;
+}
+
+.adwesse {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mini {
+  width: auto;
+  height: auto;
+  background: lightgray;
+  border-radius: 5px;
+}
