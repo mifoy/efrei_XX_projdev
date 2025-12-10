@@ -1,3 +1,4 @@
+create database autoefrei;
 CREATE TABLE voiture (
     id_voiture INT PRIMARY KEY,
     marque VARCHAR(100),
@@ -8,9 +9,7 @@ CREATE TABLE voiture (
 CREATE TABLE location (
     id_location INT PRIMARY KEY,
     date_emprunt DATETIME,
-    date_retour DATETIME,
-    prix_location INT
-    
+    date_retour DATETIME
 );
 
 CREATE TABLE utilisateur (
@@ -35,3 +34,8 @@ create table detail_location(
     FOREIGN KEY (id_voiture) REFERENCES voiture(id_voiture)
 
 )
+
+
+ 
+
+
