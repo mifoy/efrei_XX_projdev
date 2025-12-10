@@ -8,6 +8,7 @@ CREATE TABLE voiture (
 
 CREATE TABLE location (
     id_location INT PRIMARY KEY,
+    prix_location INT,
     date_emprunt DATETIME,
     date_retour DATETIME
 );
@@ -23,7 +24,6 @@ CREATE TABLE utilisateur (
 CREATE TABLE argent (
     id_location INT,
     id_voiture INT,
-    prix_location INT,
     FOREIGN KEY (id_location) REFERENCES location(id_location),
     FOREIGN KEY (id_voiture) REFERENCES voiture(id_voiture)
 );
