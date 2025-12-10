@@ -1,4 +1,3 @@
-
 CREATE TABLE voiture (
     id_voiture INT PRIMARY KEY,
     marque VARCHAR(100),
@@ -8,9 +7,10 @@ CREATE TABLE voiture (
 
 CREATE TABLE location (
     id_location INT PRIMARY KEY,
-    prix_location INT,
     date_emprunt DATETIME,
-    date_retour DATETIME
+    date_retour DATETIME,
+    prix_location INT
+    
 );
 
 CREATE TABLE utilisateur (
@@ -27,3 +27,11 @@ CREATE TABLE argent (
     FOREIGN KEY (id_location) REFERENCES location(id_location),
     FOREIGN KEY (id_voiture) REFERENCES voiture(id_voiture)
 );
+
+create table detail_location(
+ id_location INT,
+    id_voiture INT,
+    FOREIGN KEY (id_location) REFERENCES location(id_location),
+    FOREIGN KEY (id_voiture) REFERENCES voiture(id_voiture)
+
+)
